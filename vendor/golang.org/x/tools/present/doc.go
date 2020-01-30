@@ -224,7 +224,7 @@ html:
 The function html includes the contents of the specified file as
 unescaped HTML. This is useful for including custom HTML elements
 that cannot be created using only the slide format.
-It is your responsibilty to make sure the included HTML is valid and safe.
+It is your responsibility to make sure the included HTML is valid and safe.
 
 	.html file.html
 
@@ -259,4 +259,4 @@ Notes may appear anywhere within the slide text. For example:
 This has the same result as the example above.
 
 */
-package present
+package present // import "golang.org/x/tools/present"
